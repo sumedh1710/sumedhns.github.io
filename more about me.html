@@ -5,6 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>More About Me - Sumedh Sonawane</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        /* Flexbox styling for better alignment */
+        .about-container {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .about-section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .about-section img {
+            width: 35%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .about-section div {
+            width: 65%;
+        }
+        h3 {
+            color: #ffffff;
+            font-size: 22px;
+        }
+        p {
+            font-size: 16px;
+            color: #bdbdbd;
+        }
+        .icon {
+            font-size: 28px;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
 
@@ -16,45 +53,70 @@
             <li><a href="index.html#research-papers">Research Papers</a></li>
             <li><a href="index.html#research">Ongoing Research Work</a></li>
             <li><a href="resume.html">Resume</a></li>
-            <li class="active"><a href="more about me.html">More About Me</a></li>
+            <li class="active"><a href="about.html">More About Me</a></li>
         </ul>
     </nav>
 
     <!-- More About Me Section -->
     <section id="about" class="major">
         <h2>More About Me</h2>
+        <div class="about-container">
 
-        <!-- Social Work -->
-        <!-- Social Work -->
-<article style="display: flex; align-items: center; gap: 20px;">
-    <img src="images/social.jpg" alt="Volunteering for Pune Ploggers" width="40%" height="250px" style="border-radius: 10px;">
-    <div>
-        <header><h3>🌱 Giving Back to the Community</h3></header>
-        <p>Volunteering has always been important to me. I actively participated in Pune Ploggers...</p>
-    </div>
-</article>
+            <!-- Leadership Role -->
+            <article class="about-section">
+             
+                <div>
+                    <h3>🚀 Team Leadership - Backend Revamp</h3>
+                    <p>
+                        Led the backend revamp of a key application at The Polis Center, optimizing system performance and improving data accessibility. 
+                        Collaborated with stakeholders to ensure seamless technical transitions and successful implementation.
+                    </p>
 
-<!-- Sports -->
-<article style="display: flex; align-items: center; gap: 20px;">
-    <img src="images/games.jpg" alt="Football Enthusiast" width="40%" height="250px" style="border-radius: 10px;">
-    <div>
-        <header><h3>⚽ Love for Sports</h3></header>
-        <p>Football and basketball are my biggest sports passions. As a die-hard football fan...</p>
-    </div>
-</article>
-
-<!-- Music -->
-<article style="display: flex; align-items: center; gap: 20px;">
-    <img src="images/music.jpg" alt="Playing Guitar" width="40%" height="250px" style="border-radius: 10px;">
-    <div>
-        <header><h3>🎸 My Passion for Music</h3></header>
-        <p>Music has always been a huge part of my life. I play the guitar and always...</p>
-    </div>
-</article>
+                    <p>
+                        Key member in organizing the Inter-College Football Tournament in India, ensuring smooth event execution, managing logistics, and coordinating teams. 
+                        Developed strong teamwork, leadership, and problem-solving skills through this experience.
+                    </p>
+                </div>
+            </article>
 
 
-       
+            <!-- Social Work -->
+            <article class="about-section">
+                <img src="images/social.jpg" alt="Volunteering for Pune Ploggers">
+                <div>
+                    <h3>🌱 Giving Back to the Community</h3>
+                    <p>
+                        Volunteering has always been important to me. I actively participated in **Pune Ploggers**, a community dedicated to environmental sustainability. 
+                        During COVID-19, I joined initiatives to support healthcare workers and clean public spaces.
+                    </p>
+                </div>
+            </article>
 
+            <!-- Sports -->
+            <article class="about-section">
+                <img src="images/games.jpg" alt="Football and Basketball Enthusiast">
+                <div>
+                    <h3>🏀 Love for Sports</h3>
+                    <p>
+                        Football and basketball are my biggest sports passions. I support **Manchester United** and have played football at **college and university levels** in India. 
+                        Recently, I fell in love with basketball and train after gym sessions, hoping to play a professional game someday.
+                    </p>
+                </div>
+            </article>
+
+            <!-- Music -->
+            <article class="about-section">
+                <img src="images/music.jpg" alt="Playing Guitar">
+                <div>
+                    <h3>🎸 My Passion for Music</h3>
+                    <p>
+                        Music has always been a huge part of my life. I play the **guitar** and enjoy experimenting with different styles, from **rock and blues to Indian classical**. 
+                        Whether it's jamming with friends or composing my own pieces, music helps me express creativity.
+                    </p>
+                </div>
+            </article>
+
+        </div>
     </section>
 
 </body>
